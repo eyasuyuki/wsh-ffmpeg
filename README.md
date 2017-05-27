@@ -16,7 +16,7 @@ https://ffmpeg.org/download.html
 
 And install it.
 
-ex. %AppData%
+ex. ```%AppData%```
 
 Copy preset file to ffmpeg path
 -------------------------------
