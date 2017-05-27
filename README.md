@@ -28,5 +28,5 @@ Note: this preset file from http://k-pi.hatenablog.com/entry/2015/02/28/210000
 Endoce video file via drag-drop
 -------------------------
 
-Drag-drop video file to encode.wsf.
+Drag-drop video file to ```encode.wsf```.
 
