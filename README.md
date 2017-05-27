@@ -21,7 +21,7 @@ ex. %AppData%
 Copy preset file to ffmpeg path
 -------------------------------
 
-copy x264.ffpseset to '''ffmpegpath'''
+copy x264.ffpreset to ```ffmpegpath```
 
 Note: this preset file from http://k-pi.hatenablog.com/entry/2015/02/28/210000
 
