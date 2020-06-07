@@ -10,7 +10,7 @@
     var p = filePath.split('\\');
     var fileName = p.pop();
     var f = fileName.split('.');
-
+    var outPath = p.join('\\');
     var outFile = f[0]+'.mp4';
     var out = '"'+outPath+'\\'+outFile+'"';
 
