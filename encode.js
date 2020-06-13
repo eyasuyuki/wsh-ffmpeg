@@ -28,5 +28,6 @@ function enc(filePath) {
     var shell = WScript.CreateObject( "WScript.Shell" );
 
     //shell.Run(exec);
-    shell.run(exec);
+    shell.Run(exec, 1, true);
 }
+
