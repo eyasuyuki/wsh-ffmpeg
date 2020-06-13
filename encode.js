@@ -6,7 +6,12 @@
     var ffmpegpath = '%AppData%\\ffmpeg-20180201-b1af0e2-win64-static\\bin\\'
 
     // get arguments
-    var filePath = WScript.Arguments(0);
+    For Each filePath in WScript.Arguments
+	enc(filePath)
+    Next
+)();
+
+function enc(filePath) {
     var inFile = "" + "\u0022" + filePath + "\u0022" + "";
     var p = filePath.split('\\');
     var fileName = p.pop();
@@ -24,5 +29,4 @@
 
     //shell.Run(exec);
     shell.run(exec);
-
-})();
+}
